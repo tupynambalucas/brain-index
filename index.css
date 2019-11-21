@@ -1,0 +1,175 @@
+*{margin: 0px; scroll-behavior: smooth;}
+
+h1,h2,h3,p,span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #502F7E;
+}
+
+.carousel-item{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Sections */
+#section2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 0;
+}
+#section3{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #502F7E;
+  z-index: 0;
+}
+#section4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 11;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Sections End */
+
+/* Section 2 */
+#section2 .conteudo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #section2 .conteudo .text-box{
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    left: 20vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: #752F94;
+  }
+  #section2 .conteudo .text-box h1{
+    margin-bottom: 3vh;
+  }
+  #section2 .conteudo #iphone{
+    position: absolute;
+    height: 40vh;
+    right: 0;
+    bottom: -0.1vh;
+    z-index: 15;
+  }
+  #section2 .conteudo #imac{
+    position: absolute;
+    height: 50vh;
+    right: 10vw;
+    bottom: 10vh;
+    z-index: 14;
+  }
+  #section2 .conteudo #macbook{
+    position: absolute;
+    height: 40vh;
+    right: 30vw;
+    bottom: 5vh;
+    z-index: 15;
+  }
+  /* Section 3 */
+  #section3 .conteudo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #section3 .conteudo .text-box{
+    position: absolute;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: white;
+  }
+  #section3 .conteudo #texto1{
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    right: 0vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: white;
+    text-align: left;
+  }
+  #section3 .conteudo #texto2{
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    left: 30vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: white;
+    text-align: left;
+  }
+  .vl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 0.2vh solid white;
+    height: 30vh;
+  }
+  
+  /* section4 */
+  #section4 .conteudo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #section4 .conteudo .text-box{
+    position: absolute;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: #752F94;
+  }
+  #section4 .conteudo #texto1{
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    right: 0vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: #752F94;
+    text-align: left;
+  }
+  #section4 .conteudo #texto2{
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    left: 30vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    color: #752F94;
+    text-align: left;
+  }
+  .vl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 0.2vh solid white;
+    height: 30vh;
+  }
