@@ -15,6 +15,50 @@ body,html{
     width: 100vw;
 }
 
+/* Header */
+.header{
+    position: absolute;
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 12;
+    -webkit-box-shadow: 0px 18px 22px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 18px 22px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 18px 22px 0px rgba(0,0,0,0.16);
+}
+#header img{
+    position: absolute;
+    height: 12.5vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navbar{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+#header .acessar{
+    position: relative;
+    text-align: center;
+    color: #502F7E;
+    margin-left: 5vh;
+    font-size: 2vh;
+}
+.acessar span{
+    margin-left: 1vw;
+}
+.acessar .fa-sign-in-alt{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
+/* Header End */
+
 /* Sections */
 #section2{
     position: absolute;
